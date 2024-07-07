@@ -16,10 +16,10 @@ class HomePage extends StatelessWidget {
             ),
             SizedBox(height: 45,),
             Text("Abu Mehedi Fazle  Rabby"),
-            Text("APP & WEB Developer"),
+            Text("Flutter Developer"),
             SizedBox(height: 25,),
             Container(
-              height: 100, width: 400,
+              height: 50, width: 300,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(30),
@@ -27,12 +27,24 @@ class HomePage extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Icon(Icons.phone),
-                  Text('Phone'),
-                  Icon(Icons.mail),
-                  Text('Gmail'),
-                  Icon(Icons.facebook),
-                  Text('Facebook'),
+                  Column(
+                    children: [
+                      Icon(Icons.phone),
+                      Text('Phone'),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(Icons.mail),
+                      Text('Gmail'),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(Icons.facebook),
+                      Text('Facebook'),
+                    ],
+                  ),
                 ],
               ),
             ),
