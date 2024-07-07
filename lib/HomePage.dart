@@ -12,16 +12,16 @@ class HomePage extends StatelessWidget {
           children: [
             const CircleAvatar(
               radius: 100,
-              backgroundImage: AssetImage("assets/images/meditation.jpg"),
+              backgroundImage: AssetImage("assets/images/IMG_20220809_135026.jpg"),
             ),
             SizedBox(height: 45,),
-            Text("Abu Mehedi Fazle  Rabby"),
+            Text("Abu Mehedi Fazle  Rabby", style: TextStyle(fontSize: 30, color: Colors.white),),
             Text("Flutter Developer"),
             SizedBox(height: 25,),
             Container(
               height: 50, width: 300,
               decoration: BoxDecoration(
-                color: Colors.,
+                color: Colors.white,
                 borderRadius: BorderRadius.circular(30),
               ),
               child: Row(
